@@ -1,0 +1,74 @@
+# =========================
+# General
+# =========================
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.history
+.svn/
+.atom/
+.build/
+.buildlog/
+.swiftpm/
+migrate_working_dir/
+
+# =========================
+# IntelliJ / Android Studio
+# =========================
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# =========================
+# VS Code
+# =========================
+#.vscode/
+
+# =========================
+# Flutter / Dart / Pub
+# =========================
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub/
+.pub-cache/
+build/
+coverage/
+**/doc/api/
+
+# =========================
+# Generated / local config
+# =========================
+android/local.properties
+android/.gradle/
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+# iOS Flutter generated
+**/ios/Flutter/.last_build_id
+
+# =========================
+# Symbolication / obfuscation
+# =========================
+app.*.symbols
+app.*.map.json
+
+# =========================
+# Secrets
+# =========================
+lib/config/secrets.dart
+.env
+.env.*
+*.jks
+*.keystore
+
+# =========================
+# Optional local files
+# =========================
+*.tmp
+*.temp

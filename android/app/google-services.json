@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "299133429974",
+    "firebase_url": "https://micromentor-be1ba-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "micromentor-be1ba",
+    "storage_bucket": "micromentor-be1ba.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299133429974:android:95e304cd12747b91f68177",
+        "android_client_info": {
+          "package_name": "com.micromentor.micro_mentor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWxgWeAljLyY3MR555l-35iBjdns0ox-M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

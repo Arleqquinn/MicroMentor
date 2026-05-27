@@ -15,6 +15,9 @@ dependencies:
   firebase_auth: ^6.4.0
   cloud_firestore: ^6.3.0
 
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.3
+
   provider: ^6.1.5
   google_fonts: ^6.3.2
   shared_preferences: ^2.5.3
@@ -29,3 +32,12 @@ flutter:
   uses-material-design: true
   assets:
     - lib/assets/content.json
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "lib/assets/icon/MicroMentor_logo.png"
+  min_sdk_android: 21
+
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "lib/assets/icon/MicroMentor_logo.png"

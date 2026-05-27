@@ -362,7 +362,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
           _statItem("Стрик", currentStreak.toString(), Colors.redAccent),
           _statItem("Лучший стрик", bestStreak.toString(), Colors.purple),
           _statItem("Уровень", level.toString(), Colors.green),
-          _statItem("Ачивки", achievements.length.toString(), Colors.teal),
+          _statItem("Достижения", achievements.length.toString(), Colors.teal),
         ],
       ),
     );

@@ -282,6 +282,7 @@ class _LessonDetailScreenState extends State<LessonDetailScreen> {
             child: Text("Пройти тест"),
           ),
         ),
+        SizedBox(height: 80),
       ],
     );
   }
